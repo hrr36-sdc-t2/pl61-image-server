@@ -1,0 +1,23 @@
+{
+  "name": "pl61-image-server",
+  "version": "1.0.0",
+  "description": "image server for sdc",
+  "main": "server/",
+  "scripts": {
+    "start": "node server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr36-sdc-t2/pl61-image-server.git"
+  },
+  "author": "pl61",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrr36-sdc-t2/pl61-image-server/issues"
+  },
+  "homepage": "https://github.com/hrr36-sdc-t2/pl61-image-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
